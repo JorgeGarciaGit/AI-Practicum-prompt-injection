@@ -1518,4 +1518,176 @@ a {
     flex-direction: column;
     gap: 15px;
   }
+}/* --------------------------------------------------
+   Indirect injection — email
+-------------------------------------------------- */
+
+.email-meta {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid #252d38;
+
+  color: #788597;
+
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.email-meta strong {
+  color: #a6b0bf;
+}
+
+.context-warning {
+  margin-top: 15px;
+  padding: 12px;
+
+  border: 1px solid #4a3939;
+  border-radius: 6px;
+
+  background: #160f10;
+
+  color: #b87878;
+
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.attack-summary {
+  margin-top: 15px;
+}
+
+.attack-summary-flow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+
+  margin-top: 15px;
+
+  color: #8794a7;
+
+  font-size: 9px;
+}
+
+.attack-summary-flow b {
+  color: #526176;
+}
+
+.attack-summary-flow span {
+  padding: 5px 7px;
+
+  border: 1px solid #29333f;
+  border-radius: 5px;
+
+  background: #10151d;
+}
+
+
+/* --------------------------------------------------
+   Direct injection improvements
+-------------------------------------------------- */
+
+.response-detail {
+  margin-top: 15px;
+  padding-top: 12px;
+
+  border-top: 1px solid #29323d;
+
+  color: #6f7d8f;
+
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.filter-result {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 14px;
+
+  border-radius: 7px;
+}
+
+.filter-result span {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.filter-result small {
+  color: #727e8e;
+  font-size: 9px;
+}
+
+.blocked-result {
+  border: 1px solid #493737;
+  background: #150f10;
+}
+
+.blocked-result span {
+  color: #c17b7b;
+}
+
+.passed-result {
+  border: 1px solid #39454d;
+  background: #10161a;
+}
+
+.passed-result span {
+  color: #8ba9a8;
+}
+
+.filter-explanation {
+  margin-top: 90px;
+}
+
+.filter-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+
+  margin-top: 25px;
+}
+
+.comparison-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  padding: 22px;
+
+  border: 1px solid #29333f;
+  border-radius: 9px;
+
+  background: #0c1016;
+}
+
+.comparison-card > span {
+  color: #667387;
+
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.comparison-card code {
+  color: #b98282;
+
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.comparison-card small {
+  color: #687587;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .filter-comparison {
+    grid-template-columns: 1fr;
+  }
 }
